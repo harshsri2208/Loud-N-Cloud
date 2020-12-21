@@ -11,9 +11,23 @@ Vaccine for Covid-19 has been developed in record time. Now, the next big challe
 
 ## How our model works
 We have collected the data from covid19india.org, who are doing an awesome job at crowdsourcing the data!
+
 ![backend](https://cdn.discordapp.com/attachments/772028017047764996/790485882834518056/Inout.png)
+
 The SIR model we devised was inspired from this project [infectious_disease_modelling](https://github.com/henrifroese/infectious_disease_modelling)
 We have used the star admin react template for our dashboard.
+
+## Model USP
+Normally SIR models are made to model infection-spread of a disease. While Project Manna has been improved to support vaccinationation scenario by considering that vaccinated people can't spread or get affected by covid.
+
+Here follows a simple block view of the compartments of the enhanced SIR model.
+
+![Model](images/model.png)
+
+## Model Validation
+We tried comparing graphs for a particular district, by comparing graph fitted by the model and the real data graph for covid cases.
+
+![Case Comparison Graph](images/Screenshot1.png)
 
 ## Tech stack
 <p align = "center">
@@ -29,8 +43,10 @@ We have used the star admin react template for our dashboard.
 
 ## Features
 - [x] General statistics- Active | Confirmed | Recovered cases
-- [x] District wise risk classification
-- [x] Estimated required vaccines per million people to mitigate fatality
+- [x] District wise risk estimation
+- [x] District wise vaccination urgency estimation
+- [x] Risk visualization in different population region (high or low)
+- [x] Decision making on distribution of available vaccinations amongst districts (i.e. how many vaccines to deliver to which district in case a limited supply of vaccines)
 
 ## Starware
 
