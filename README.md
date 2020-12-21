@@ -6,6 +6,9 @@
 # project-manna
 Submitted at InOut 2020. This project has been deployed on heroku, and can be accessed from this link. [project-manna](https://project-manna.herokuapp.com/)
 
+![risk estimation](https://github.com/DesignrKnight/Loud-N-Cloud/blob/main/project-manna.gif)
+![vaccine requirement](https://github.com/DesignrKnight/Loud-N-Cloud/blob/main/vaccine_requirement.gif)
+
 ## Motivation
 Vaccine for Covid-19 has been developed in record time. Now, the next big challenge is a logistical one, manufacturing vaccine at scale and mass innoculation. It will be some time before everyone is vaccinated. So we need to make the best out of the limited supply we will be getting initially. By predicting vunerable demographics beforehand, we can vaccinate these people on a priority basis to decrease fatality rate.
 
