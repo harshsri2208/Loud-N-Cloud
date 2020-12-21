@@ -30,8 +30,12 @@ We tried comparing graphs for a particular district, by comparing graph fitted b
 ![Case Comparison Graph](images/Screenshot1.png)
 
 ## Terminology
-* Risk in a district= Predictied new cases after 15 days
-*
+* Risk in a district = Predictied new cases after 15 days
+* Normalized Risk = Risk normalized [0-1]
+* Vaccine Urgency = Normalized Risk * Number of Susceptible cases in district
+* Normalized urgency of vaccination = Vaccine urgency normalized [0-1]
+* Relative vaccine urgency = Normalized Vaccine urgency of district / Summation of normalized vaccine urgency of all districts
+* Vaccine to be provided to district = Relative vaccine urgency * available vaccines
 
 ## Tech stack
 <p align = "center">
