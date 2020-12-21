@@ -29,9 +29,6 @@ We tried comparing graphs for a particular district, by comparing graph fitted b
 
 ![Case Comparison Graph](images/Screenshot1.png)
 
-The SIR model we devised was inspired from this project [infectious_disease_modelling](https://github.com/henrifroese/infectious_disease_modelling)
-We have used the star admin react template for our dashboard.
-
 ## Tech stack
 <p align = "center">
   <img src="https://img.shields.io/badge/Python%20-%23FF9900.svg?&style=for-the-badge&logo=python&logoColor=white"/> 
